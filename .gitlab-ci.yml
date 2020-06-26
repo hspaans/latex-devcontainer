@@ -1,0 +1,33 @@
+---
+stages:
+  - build
+
+article:
+  stage: build
+  image: aergus/latex
+  script:
+    - latexmk -pdf article.tex
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - article.pdf
+
+book:
+  stage: build
+  image: aergus/latex
+  script:
+    - latexmk -pdf book.tex
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - book.pdf
+
+presentation:
+  stage: build
+  image: aergus/latex
+  script:
+    - latexmk -pdf presentation.tex
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - presentation.pdf

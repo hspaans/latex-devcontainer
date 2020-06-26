@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build PDF from article.tex",
+            "type": "shell",
+            "command": "rubber -f article.tex"
+        },
+        {
+            "label": "Build PDF from book.tex",
+            "type": "shell",
+            "command": "rubber -f book.tex"
+        },
+        {
+            "label": "Build PDF from presentation.tex",
+            "type": "shell",
+            "command": "rubber -f presentation.tex"
+        },
+        {
+            "label": "Refresh rfc.bib",
+            "type": "shell",
+            "command": "curl --silent -k -o rfc.bib https://tm.uka.de/~bless/rfc.bib"
+        }
+    ]
+}

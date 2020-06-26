@@ -19,7 +19,7 @@ RUN apt-get update \
     && apt-get -y install git iproute2 procps iproute2 lsb-release rcm \
     #
     # Install TexLive
-    && apt-get -y install texlive rubber curl ca-certificates \
+    && apt-get -y install texlive texlive-pictures rubber curl ca-certificates \
     #
     # Create a non-root user to use if preferred - see https://aka.ms/vscode-remote/containers/non-root-user.
     && groupadd --gid $USER_GID $USERNAME \

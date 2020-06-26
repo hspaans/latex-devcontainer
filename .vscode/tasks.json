@@ -6,17 +6,17 @@
         {
             "label": "Build PDF from article.tex",
             "type": "shell",
-            "command": "rubber -f article.tex"
+            "command": "rubber -d article.tex"
         },
         {
             "label": "Build PDF from book.tex",
             "type": "shell",
-            "command": "rubber -f book.tex"
+            "command": "rubber -d book.tex"
         },
         {
             "label": "Build PDF from presentation.tex",
             "type": "shell",
-            "command": "rubber -f presentation.tex"
+            "command": "rubber -d presentation.tex"
         },
         {
             "label": "Refresh rfc.bib",

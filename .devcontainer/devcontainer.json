@@ -2,7 +2,7 @@
 	"name": "LaTeX",
 	"build":{
 		"dockerfile": "Dockerfile",
-		"context": "..",
+		"context": ".."
 	},
 
 	"settings": {

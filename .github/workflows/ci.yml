@@ -32,5 +32,6 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: my-artifact
+          name: documents
           path: '*pdf'
+          expires: 3600

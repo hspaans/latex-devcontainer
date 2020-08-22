@@ -3,16 +3,19 @@
     "tasks": [
         {
             "label": "Build PDF from article.tex",
+            "group": "buid",
             "type": "shell",
             "command": "rubber -d article.tex"
         },
         {
             "label": "Build PDF from book.tex",
+            "group": "buid",
             "type": "shell",
             "command": "rubber -d book.tex"
         },
         {
             "label": "Build PDF from presentation.tex",
+            "group": "buid",
             "type": "shell",
             "command": "rubber -d presentation.tex"
         },

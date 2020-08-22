@@ -16,6 +16,7 @@
 	"remoteUser": "vscode",
 
 	"extensions": [
+		"editorconfig.editorconfig"
 		"github.vscode-pull-request-github",
 		"redhat.vscode-yaml",
 		"james-yu.latex-workshop"

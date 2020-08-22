@@ -1,24 +1,24 @@
 {
-	"name": "LaTeX",
-	"build":{
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
+  "name": "LaTeX",
+  "build":{
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
 
-	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
 
-	"appPort": [],
+  "appPort": [],
 
-	"postCreateCommand": "",
+  "postCreateCommand": "",
 
-	"remoteUser": "vscode",
+  "remoteUser": "vscode",
 
-	"extensions": [
-		"editorconfig.editorconfig"
-		"github.vscode-pull-request-github",
-		"redhat.vscode-yaml",
-		"james-yu.latex-workshop"
-	]
+  "extensions": [
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "redhat.vscode-yaml",
+    "james-yu.latex-workshop"
+  ]
 }

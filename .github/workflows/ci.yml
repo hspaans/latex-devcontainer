@@ -34,4 +34,3 @@ jobs:
         with:
           name: documents
           path: '*pdf'
-          expires: 3600

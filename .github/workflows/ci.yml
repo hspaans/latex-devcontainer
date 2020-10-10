@@ -34,3 +34,4 @@ jobs:
         with:
           name: documents
           path: '*pdf'
+          retention-days: 8

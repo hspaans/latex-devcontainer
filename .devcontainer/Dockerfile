@@ -1,4 +1,6 @@
-FROM debian:stable-slim
+FROM debian:10.6-slim
+
+LABEL org.opencontainers.image.source=https://github.com/hspaans/latex-devcontainer
 
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive

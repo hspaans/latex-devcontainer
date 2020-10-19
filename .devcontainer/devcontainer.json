@@ -4,17 +4,12 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-
   "appPort": [],
-
   "postCreateCommand": "",
-
   "remoteUser": "vscode",
-
   "extensions": [
     "editorconfig.editorconfig",
     "github.vscode-pull-request-github",

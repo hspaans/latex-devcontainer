@@ -1,5 +1,6 @@
 FROM debian:10.6-slim
 
+LABEL org.opencontainers.image.description="LaTeX devcontainer for VSCode or Codespaces"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/latex-devcontainer
 
 # Avoid warnings by switching to noninteractive

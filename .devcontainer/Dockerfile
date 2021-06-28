@@ -1,4 +1,4 @@
-FROM debian:10.9-slim
+FROM debian:10.10-slim
 
 LABEL org.opencontainers.image.description="LaTeX devcontainer for VSCode or Codespaces"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/latex-devcontainer
